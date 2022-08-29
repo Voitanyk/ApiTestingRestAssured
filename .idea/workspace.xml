@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2937639-c285-4df4-bc49-0bb82b73473e" name="Changes" comment="">
+    <list default="true" id="d2937639-c285-4df4-bc49-0bb82b73473e" name="Changes" comment="RestAssured">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RESTtests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RESTtests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RESTtests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssuredTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -42,10 +44,10 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="RESTtests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RestAssuredTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIITestingRestAssured" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RESTtests" />
+      <option name="MAIN_CLASS_NAME" value="RestAssuredTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -55,7 +57,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RESTtests" />
+        <item itemvalue="TestNG.RestAssuredTests" />
       </list>
     </recent_temporary>
   </component>
@@ -68,6 +70,14 @@
       <option name="presentableId" value="Default" />
       <updated>1661528253780</updated>
     </task>
+    <task id="LOCAL-00001" summary="RestAssured">
+      <created>1661754561495</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661754561495</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,5 +90,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="RestAssured" />
+    <option name="LAST_COMMIT_MESSAGE" value="RestAssured" />
   </component>
 </project>

@@ -8,12 +8,12 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class RESTtests {
+public class RestAssuredTests {
     ObjectMapper objectMapper = new ObjectMapper().disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
     Board newBoard = new Board(BaseClass.name, BaseClass.key, BaseClass.token);
     Board actualBoard;
 
-    //Before method creates a new Trello board and checks the status code 200.
+    //Before method creates a new Trello board
     @BeforeMethod
     public void getBoardID() throws JsonProcessingException {
         String actualResponse =
@@ -59,6 +59,7 @@ public class RESTtests {
         Assert.assertEquals(actualBoard.getName(), BaseClass.name);
     }
 
+   //The test updated the existing board using it's ID and validates a new name of the board
     @Test
     public void updateMyBoard() throws JsonProcessingException {
         String actualResponse =
