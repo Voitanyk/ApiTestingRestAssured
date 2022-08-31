@@ -1,17 +1,24 @@
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.restassured.specification.RequestSpecification;
 
 import static io.restassured.RestAssured.given;
 
 public class TestSteps extends BaseClass{
+    public static RequestSpecification requestClient(String url) {
+        return
+                given()
+                        .baseUri(url)
+                        .contentType("application/json");
+    }
     static Board actualBoard;
     static ObjectMapper objectMapper = new ObjectMapper().disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
 
     public static int deleteMyBoard(String boardId) throws JsonProcessingException {
         Board toDelete = new Board(key, token);
         int actualResponse =
-                RequestClient.requestBuilder(BaseUrl)
+                requestClient(BaseUrl)
                         .basePath("1/boards/" + boardId)
                         .body(toDelete)
                         .when()
@@ -21,7 +28,7 @@ public class TestSteps extends BaseClass{
 
     }
     public static Board createNewBoard(Board newBoard) throws JsonProcessingException {
-        String response = RequestClient.requestBuilder(BaseUrl)
+        String response = requestClient(BaseUrl)
                 .basePath("1/boards/")
                 .body(newBoard)
                 .when()
@@ -32,7 +39,7 @@ public class TestSteps extends BaseClass{
     }
     public static Board checkBoardInfo(String boardId) throws JsonProcessingException {
         Board toUpdate = new Board(key, token);
-        String response = RequestClient.requestBuilder(BaseUrl)
+        String response = requestClient(BaseUrl)
                 .basePath("1/boards/" + boardId)
                 .body(toUpdate)
                 .when()
@@ -42,7 +49,7 @@ public class TestSteps extends BaseClass{
         return actualBoard;
     }
     public static Board updateBoardInfo(String boardId) throws JsonProcessingException {
-        String response = RequestClient.requestBuilder(BaseUrl)
+        String response = requestClient(BaseUrl)
                 .basePath("1/boards/" + boardId)
                 .body(new Board("NewName", key, token))
                 .when()
