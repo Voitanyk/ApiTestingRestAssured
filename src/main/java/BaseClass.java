@@ -1,3 +1,7 @@
+import org.apache.http.client.methods.RequestBuilder;
+
+import javax.xml.ws.Response;
+
 public class BaseClass {
     public static String BaseUrl = "https://api.trello.com/";
     public static String token = "e05fbe66822ad2fbf0dee62dbc98f95406fac7bf04c9089dc5d60b2826f179af";
