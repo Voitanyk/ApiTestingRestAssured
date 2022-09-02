@@ -142,10 +142,10 @@ public class Board {String id;
     }
 
     public String getKey() {
-        return BaseClass.key;
+        return key;
     }
 
     public String getToken() {
-        return BaseClass.token;
+        return token;
     }
 }

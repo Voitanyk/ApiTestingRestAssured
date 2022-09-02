@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2937639-c285-4df4-bc49-0bb82b73473e" name="Changes" comment="fixed tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BaseClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SecondSetOfTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondSetOfTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ThirdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThirdTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +64,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SecondSetOfTests (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTestingRestAssured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SecondSetOfTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SecondSetOfTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiTestingRestAssured" />
       <option name="PACKAGE_NAME" value="" />
@@ -65,23 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondSetOfTests.updateBoardTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SecondSetOfTests.checkBoardTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiTestingRestAssured" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SecondSetOfTests" />
-      <option name="METHOD_NAME" value="updateBoardTest" />
+      <option name="METHOD_NAME" value="checkBoardTest" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThirdTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiTestingRestAssured" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThirdTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -104,8 +114,8 @@
         <item itemvalue="TestNG.ThirdTest" />
         <item itemvalue="TestNG.SecondSetOfTests" />
         <item itemvalue="TestNG.FirstTest" />
-        <item itemvalue="TestNG.ThirdTest (1)" />
-        <item itemvalue="TestNG.SecondSetOfTests.updateBoardTest" />
+        <item itemvalue="TestNG.SecondSetOfTests.checkBoardTest" />
+        <item itemvalue="TestNG.SecondSetOfTests (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661948821994</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed tests">
+      <created>1661950387859</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661950387859</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

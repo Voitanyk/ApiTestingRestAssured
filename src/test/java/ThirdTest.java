@@ -3,16 +3,19 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class ThirdTest extends BaseClass {
+import java.io.IOException;
+
+public class ThirdTest {
     Board newBoard;
+    TestSteps testSteps = new TestSteps();
     @BeforeMethod
-    public void createNewBoardBeforeTests() throws JsonProcessingException {
-        newBoard = TestSteps.createNewBoard(new Board(name, key, token));
+    public void createNewBoardBeforeTests() throws IOException {
+        newBoard = testSteps.createNewBoard();
     }
 
     @Test
-    public void deleteBoardByIDTest() throws JsonProcessingException {
-        int statusCode = TestSteps.deleteMyBoard(newBoard.getId());
+    public void deleteBoardByIDTest() throws IOException {
+        int statusCode = testSteps.deleteMyBoard(newBoard.getId());
         Assert.assertEquals(statusCode, 200);
     }
 }
