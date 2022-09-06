@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2937639-c285-4df4-bc49-0bb82b73473e" name="Changes" comment="">
+    <list default="true" id="d2937639-c285-4df4-bc49-0bb82b73473e" name="Changes" comment="fixed tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RESTtests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RESTtests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Properties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SecondSetOfTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondSetOfTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ThirdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThirdTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -41,11 +48,56 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="RESTtests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIITestingRestAssured" />
+  <component name="RunManager" selected="TestNG.ThirdTest">
+    <configuration name="FirstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTestingRestAssured" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RESTtests" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondSetOfTests (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTestingRestAssured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SecondSetOfTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondSetOfTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTestingRestAssured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SecondSetOfTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondSetOfTests.updateBoardTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTestingRestAssured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SecondSetOfTests" />
+      <option name="METHOD_NAME" value="updateBoardTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThirdTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTestingRestAssured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ThirdTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -55,7 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RESTtests" />
+        <item itemvalue="TestNG.ThirdTest" />
+        <item itemvalue="TestNG.FirstTest" />
+        <item itemvalue="TestNG.SecondSetOfTests" />
+        <item itemvalue="TestNG.SecondSetOfTests (2)" />
+        <item itemvalue="TestNG.SecondSetOfTests.updateBoardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -68,6 +124,49 @@
       <option name="presentableId" value="Default" />
       <updated>1661528253780</updated>
     </task>
+    <task id="LOCAL-00001" summary="RestAssured">
+      <created>1661754561495</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661754561495</updated>
+    </task>
+    <task id="LOCAL-00002" summary="RestAssured">
+      <created>1661755155119</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661755155119</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed tests">
+      <created>1661938414102</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661938414102</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed tests">
+      <created>1661948821994</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661948821994</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed tests">
+      <created>1661950387859</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661950387859</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixed tests">
+      <created>1662125640496</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662125640496</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,5 +179,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="RestAssured" />
+    <MESSAGE value="fixed tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed tests" />
   </component>
 </project>
