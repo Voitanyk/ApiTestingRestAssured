@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class ThirdTest {
+public class ThirdTest extends BaseTest{
     Board newBoard;
     TestSteps testSteps = new TestSteps();
     @BeforeMethod
@@ -15,7 +15,6 @@ public class ThirdTest {
 
     @Test
     public void deleteBoardByIDTest() throws IOException {
-        int statusCode = testSteps.deleteMyBoard(newBoard.getId());
-        Assert.assertEquals(statusCode, 200);
+        testSteps.deleteMyBoard(newBoard.getId());
     }
 }

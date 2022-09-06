@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2937639-c285-4df4-bc49-0bb82b73473e" name="Changes" comment="fixed tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Properties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestApiClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BaseClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Properties.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SecondSetOfTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondSetOfTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ThirdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThirdTest.java" afterDir="false" />
@@ -64,7 +60,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondSetOfTests (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SecondSetOfTests (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiTestingRestAssured" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SecondSetOfTests" />
@@ -86,11 +82,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondSetOfTests.checkBoardTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SecondSetOfTests.updateBoardTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiTestingRestAssured" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SecondSetOfTests" />
-      <option name="METHOD_NAME" value="checkBoardTest" />
+      <option name="METHOD_NAME" value="updateBoardTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -112,10 +108,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.ThirdTest" />
-        <item itemvalue="TestNG.SecondSetOfTests" />
         <item itemvalue="TestNG.FirstTest" />
-        <item itemvalue="TestNG.SecondSetOfTests.checkBoardTest" />
-        <item itemvalue="TestNG.SecondSetOfTests (1)" />
+        <item itemvalue="TestNG.SecondSetOfTests" />
+        <item itemvalue="TestNG.SecondSetOfTests (2)" />
+        <item itemvalue="TestNG.SecondSetOfTests.updateBoardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661950387859</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixed tests">
+      <created>1662125640496</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662125640496</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
